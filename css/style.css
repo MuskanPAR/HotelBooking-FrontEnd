@@ -1,0 +1,162 @@
+.navbar-nav {
+    float: right;
+}
+.navbar {
+    border: 0px solid transparent;
+	 margin-bottom:10px;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+}
+.search_form
+{
+	position: absolute;
+    top: 350px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+    color: #fff;	
+	left: 9%;
+    right: 9%;	
+}
+.navbar-fixed-bottom
+{
+	position: relative;
+}
+.top_hotels
+{
+	background-color:#fff;
+	padding:10px;
+	position:relative;
+}
+.top_hotels p
+{
+	text-align:justify;
+}
+.top_hotels img
+{
+	height:200px;
+}
+.navbar-inverse .navbar-brand {
+    color: #000;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 93px !important;
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #000;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #000;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #000;
+}
+.container-fluid
+{
+	padding-top: 15px;
+} 
+footer .navbar-inverse
+{
+	background-color:#f5f5f5;
+}
+footer .navbar
+{
+	    margin-bottom: 0px;
+		min-height: 100px;
+}
+footer .social_link
+{
+	padding-right: 15px;
+    padding-left: 15px;    
+}
+footer .social_link .nav>li>a
+{
+	padding: 4px 8px;
+    font-size: 20px;
+}
+.modal-body {
+    position: relative;
+    padding: 25px;
+}
+.modal-dialog
+{
+	width:400px;
+}
+
+.hotel_result .h1, .h2, .h3, h1, h2, h3
+{
+	margin-top: 5px;
+    margin-bottom: 0px;
+}
+.currency
+{
+	font-style: italic;
+    font-size: 12px;
+    font-weight: bold;
+}
+.price
+{
+	font-size: 20px;
+    font-weight: bold;
+}
+.user_rating
+{
+	background-color: #428500;
+	    width: 30px;
+    height: 18px;
+    border-radius: 18px;
+}
+.user_rating span
+{
+	font-weight: 700;
+    color: #fff;
+	    width: 30px;
+    height: 18px;
+    border-radius: 18px;
+    text-align: center;
+    line-height: 1.25;
+	font-size:12px;
+	padding:5px;
+}
+.hotel_desc
+{
+	border-right: 1px solid #ccc;
+	min-height: 150px;
+}
+
+.result_row
+{
+	background:#fff;
+	margin-bottom:15px;
+}
+.total_result
+{
+	background-color:#fff;
+	padding:0 20px;
+	line-height:54px;
+}
+.hotel_filters h4
+{
+	margin-top:0px;
+}
+.sort_by
+{
+	background-color:#fff;
+	margin-bottom:15px;
+	padding:18px;
+}
+.sort_byvalue
+{
+	background-color:#f5f5f5;
+	padding:10px;
+	margin-left: 4px;
+    border-radius: 5px;
+}
+.active
+{
+	background:#286090;
+	color:#fff;
+}

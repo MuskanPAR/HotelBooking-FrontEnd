@@ -1,0 +1,396 @@
+<html>
+<title>
+search
+</title>
+<head>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background: #fbfafa;">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="javascript:void(0)">ROSETTA</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">INR<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:void(0)">INR</a></li>
+          <li><a href="javascript:void(0)">USD</a></li>
+          <li><a href="javascript:void(0)">SAR</a></li>
+        </ul>
+      </li>
+	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">ENGLISH<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:void(0)">ARABIC</a></li>
+          <li><a href="javascript:void(0)">GERMAN</a></li>
+          <li><a href="javascript:void(0)">ROMANIA</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#register_modal">Sign Up</a></li>
+      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#login_modal"> Sign In</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+     <div class="row">
+        <div class="col-lg-3 hotel_filters">
+		<h4 class="total_result " ><i class="fa fa-search"></i> 10 results found</h4>
+		<h4 class="total_result " >Price</h4>
+		<h4 class="total_result " >Star Rating</h4>
+		<h4 class="total_result " >Offers</h4>
+		<h4 class="total_result " >Amenities</h4>
+        </div>
+		
+        <div class="col-lg-9 hotel_result">
+		    <div class="row sort_by">
+			   <div class="col-lg-12">
+			   <span>Sort By:</span>
+			   <span class="sort_byvalue active">Price</span>
+			   <span class="sort_byvalue">Star</span>
+			   <span class="sort_byvalue">Name</span>
+               </div>
+            </div>		
+			<div class="row result_row">
+			   <div class="col-lg-3" style="padding-left: 0px;">
+					<img src="../images/h1.jpg"  style="width:220px; height:150px;">
+			   </div>
+			   <div class="col-lg-7 hotel_desc">
+				   <h4>Hotel Raddision</h4>
+				   <p><i class="fa fa-map-marker"></i> Calangute,Goa</p>
+				   <div><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+				   <div>
+				   <span class="user_rating">
+					<span>8.1</span>
+				   </span>
+				   &nbsp;
+				   <span>
+				   Excellent!!
+				   </span>
+				   </div>
+			   </div>
+				<div class="col-lg-2" style="margin-top:50px;">
+					<center><span class="currency">INR</span> <span class="price">2999.00</span></center>
+					<button type="button" class="btn btn-primary active form-control">Book</button>
+			   </div>
+			</div>
+			
+			<div class="row result_row" >
+			   <div class="col-lg-3" style="padding-left: 0px;">
+					<img src="../images/h2.jpg"  style="width:220px; height:150px;">
+			   </div>
+			   <div class="col-lg-7 hotel_desc">
+				   <h4>Resort Rio</h4>
+				   <p><i class="fa fa-map-marker"> </i> Arpora , Goa</p>
+				   <div><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+				   <div>
+				   <span class="user_rating">
+					<span>8.0</span>
+				   </span>
+				   &nbsp;
+				   <span>
+				   Excellent!!
+				   </span>
+				   </div>
+			   </div>
+				<div class="col-lg-2" style="margin-top:50px;">
+					<center><span class="currency">INR</span> <span class="price">2199.00</span></center>
+					<button type="button" class="btn btn-primary active form-control">Book</button>
+			   </div>
+			</div>
+			<div class="row result_row" >
+			   <div class="col-lg-3" style="padding-left: 0px;">
+					<img src="../images/h3.jpg"  style="width:220px; height:150px;">
+			   </div>
+			   <div class="col-lg-7 hotel_desc">
+				   <h4>Joia Do Mar Resort</h4>
+				   <p><i class="fa fa-map-marker"> </i> Calangute,  Goa</p>
+				   <div><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+				   <div>
+				   <span class="user_rating">
+					<span>8.0</span>
+				   </span>
+				   &nbsp;
+				   <span>
+				   Excellent!!
+				   </span>
+				   </div>
+			   </div>
+				<div class="col-lg-2" style="margin-top:50px;">
+					<center><span class="currency">INR</span> <span class="price">3999.00</span></center>
+					<button type="button" class="btn btn-primary active form-control">Book</button>
+			   </div>
+			</div>
+			<div class="row result_row" >
+			   <div class="col-lg-3" style="padding-left: 0px;">
+					<img src="../images/h4.jpg"  style="width:220px; height:150px;">
+			   </div>
+			   <div class="col-lg-7 hotel_desc">
+				   <h4>Keys Select Ronil Resort</h4>
+				   <p><i class="fa fa-map-marker"> </i> Calangute, Goa</p>
+				   <div><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+				   <div>
+				   <span class="user_rating">
+					<span>7.9</span>
+				   </span>
+				   &nbsp;
+				   <span>
+				   Very Good!!
+				   </span>
+				   </div>
+			   </div>
+				<div class="col-lg-2" style="margin-top:50px;">
+					<center><span class="currency">INR</span> <span class="price">999.00</span></center>
+					<button type="button" class="btn btn-primary active form-control">Book</button>
+			   </div>
+			</div>
+			<div class="row result_row" >
+			   <div class="col-lg-3" style="padding-left: 0px;">
+					<img src="../images/h5.jpg"  style="width:220px; height:150px;">
+			   </div>
+			   <div class="col-lg-7 hotel_desc">
+				   <h4>White Square Nirvana</h4>
+				   <p><i class="fa fa-map-marker"> </i> Calangute,  Goa</p>
+				   <div><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+				   <div>
+				   <span class="user_rating">
+					<span>7.8</span>
+				   </span>
+				   &nbsp;
+				   <span>
+				   Very Good!!
+				   </span>
+				   </div>
+			   </div>
+				<div class="col-lg-2" style="margin-top:50px;">
+					<center><span class="currency">INR</span> <span class="price">1999.00</span></center>
+					<button type="button" class="btn btn-primary active form-control">Book</button>
+			   </div>
+			</div>
+			<div class="row result_row" >
+			   <div class="col-lg-3" style="padding-left: 0px;">
+					<img src="../images/h6.jpg"  style="width:220px; height:150px;">
+			   </div>
+			   <div class="col-lg-7 hotel_desc">
+				   <h4>Sinq Signature</h4>
+				   <p><i class="fa fa-map-marker"> </i> Calangute,  Goa</p>
+				   <div><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+				   <div>
+				   <span class="user_rating">
+					<span>6.0</span>
+				   </span>
+				   &nbsp;
+				   <span>
+				   Good!!
+				   </span>
+				   </div>
+			   </div>
+				<div class="col-lg-2" style="margin-top:50px;">
+					<center><span class="currency">INR</span> <span class="price">1099.00</span></center>
+					<button type="button" class="btn btn-primary active form-control">Book</button>
+			   </div>
+			</div>
+			<div class="row result_row" >
+			   <div class="col-lg-3" style="padding-left: 0px;">
+					<img src="../images/h7.jpg"  style="width:220px; height:150px;">
+			   </div>
+			   <div class="col-lg-7 hotel_desc">
+				   <h4>Nagoa Grande Hotel</h4>
+				   <p><i class="fa fa-map-marker"> </i> Arpora,  Goa</p>
+				   <div><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+				   <div>
+				   <span class="user_rating">
+					<span>8.0</span>
+				   </span>
+				   &nbsp;
+				   <span>
+				   Excellent!!
+				   </span>
+				   </div>
+			   </div>
+				<div class="col-lg-2" style="margin-top:50px;">
+					<center><span class="currency">INR</span> <span class="price">1199.00</span></center>
+					<button type="button" class="btn btn-primary active form-control">Book</button>
+			   </div>
+			</div>
+			<div class="row result_row" >
+			   <div class="col-lg-3" style="padding-left: 0px;">
+					<img src="../images/h8.jpg"  style="width:220px; height:150px;">
+			   </div>
+			   <div class="col-lg-7 hotel_desc">
+				   <h4>Amour Resort</h4>
+				   <p><i class="fa fa-map-marker"> </i> Vagator,  Goa</p>
+				   <div><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+				   <div>
+				   <span class="user_rating">
+					<span>8.1</span>
+				   </span>
+				   &nbsp;
+				   <span>
+				   Excellent!!
+				   </span>
+				   </div>
+			   </div>
+				<div class="col-lg-2" style="margin-top:50px;">
+					<center><span class="currency">INR</span> <span class="price">999.00</span></center>
+					<button type="button" class="btn btn-primary active form-control">Book</button>
+			   </div>
+			</div>
+			<div class="row result_row" >
+			   <div class="col-lg-3" style="padding-left: 0px;">
+					<img src="../images/h9.jpg"  style="width:220px; height:150px;">
+			   </div>
+			   <div class="col-lg-7 hotel_desc">
+				   <h4>Angels Resort</h4>
+				   <p><i class="fa fa-map-marker"> </i> Porvorim,  Goa</p>
+				   <div><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+				   <div>
+				   <span class="user_rating">
+					<span>6.0</span>
+				   </span>
+				   &nbsp;
+				   <span>
+				   Good!!
+				   </span>
+				   </div>
+			   </div>
+				<div class="col-lg-2" style="margin-top:50px;">
+					<center><span class="currency">INR</span> <span class="price">899.00</span></center>
+					<button type="button" class="btn btn-primary active form-control">Book</button>
+			   </div>
+			</div>
+			<div class="row result_row" >
+			   <div class="col-lg-3" style="padding-left: 0px;">
+					<img src="../images/h10.jpg"  style="width:220px; height:150px;">
+			   </div>
+			   <div class="col-lg-7 hotel_desc">
+				   <h4>Hotel Raddision</h4>
+				   <p><i class="fa fa-map-marker"> </i> Delhi, 9.3 km to City centre</p>
+				   <div><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+				   <div>
+				   <span class="user_rating">
+					<span>8.1</span>
+				   </span>
+				   &nbsp;
+				   <span>
+				   Excellent!!
+				   </span>
+				   </div>
+			   </div>
+				<div class="col-lg-2" style="margin-top:50px;">
+					<center><span class="currency">INR</span> <span class="price">999.00</span></center>
+					<button type="button" class="btn btn-primary active form-control">Book</button>
+			   </div>
+			</div>
+		</div>
+		
+	 </div>
+</div>
+<footer>
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="javascript:void(0)">ROSETTA</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown"><a href="javascript:void(0)">About Us</a></li>
+	  <li class="dropdown"><a href="javascript:void(0)">Contact Us</a></li>
+    </ul>
+	
+    </div>
+	<div class="social_link">
+	<ul class="nav navbar-nav">
+      <li class="dropdown"><a href="javascript:void(0)"><i class="fa fa-facebook-square"></i></a></li>
+	  <li class="dropdown"><a href="javascript:void(0)"><i class="fa fa-twitter-square"></i></a></li>
+	  <li class="dropdown"><a href="javascript:void(0)"><i class="fa fa-google-plus-square"></i></a></li>
+	  <li class="dropdown"><a href="javascript:void(0)"><i class="fa fa-linkedin-square"></i></a></li>
+    </ul>
+	</div>
+</nav>
+</footer>
+ <!-- Modal -->
+  <div class="modal fade" id="register_modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Register</h4>
+        </div>
+        <div class="modal-body">
+          
+			<div class="input_box_main">
+				  <div class="form-group text-left">
+					<label>Email Id</label>
+					<input type="text" class="form-control input_box" placeholder="Enter Email Id..." >
+					
+				  </div>
+				  <div class="form-group text-left">
+					<label>Mobile</label>
+					<input type="number" class="form-control input_box" placeholder="Enter Mobile...">
+					
+				  </div>
+				  <div class="form-group text-left">
+				  <label>Password</label>
+					<input type="password" class="form-control input_box" placeholder="Enter Password..." >
+					
+				  </div>
+				   <div class="form-group text-left">
+				  <label>Confirm Password</label>
+					<input type="password" class="form-control input_box" placeholder="Confirm Password...">
+					
+				  </div><br>
+				  <center><button type="button" class="btn btn-primary active form-co ntrol" style="width:200px;">Register</button></center>
+				   
+				 
+			</div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+   <div class="modal fade" id="login_modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Account Login</h4>
+        </div>
+        <div class="modal-body">
+          
+			<div class="input_box_main">
+				  <div class="form-group text-left">
+					<label>Email Id</label>
+					<input type="text" class="form-control input_box" placeholder="Enter Email Id..." >
+					
+				  </div>
+				  <div class="form-group text-left">
+				  <label>Password</label>
+					<input type="password" class="form-control input_box" placeholder="Enter Password..." >
+			
+				  </div>
+				  <div class="forgot_pass" ng-click="changeBoxtype('ForgotPassword')">Forgot Password?</div><br>
+				  <center><button type="button" class="btn btn-primary active form-con trol" style="width:200px;">Login</button></center>
+				  
+				  
+			</div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+
+</body>
+
+</html>

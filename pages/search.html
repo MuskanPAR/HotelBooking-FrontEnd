@@ -1,0 +1,241 @@
+<html>
+<title>
+search
+</title>
+<head>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="javascript:void(0)">ROSETTA</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">INR<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:void(0)">INR</a></li>
+          <li><a href="javascript:void(0)">USD</a></li>
+          <li><a href="javascript:void(0)">SAR</a></li>
+        </ul>
+      </li>
+	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">ENGLISH<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:void(0)">ARABIC</a></li>
+          <li><a href="javascript:void(0)">GERMAN</a></li>
+          <li><a href="javascript:void(0)">ROMANIA</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#register_modal">Sign Up</a></li>
+      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#login_modal"> Sign In</a></li>
+    </ul>
+  </div>
+</nav>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="../images/slide4.png"  style="width:100%; height:500px;">
+      </div>
+
+      <div class="item">
+        <img src="../images/hotel2.jpg"  style="width:100%; height:500px ">
+      </div>
+    
+      <div class="item">
+        <img src="../images/hotel3.jpg" style="width:100%; height:500px;">
+      </div>
+	  
+	  <div class="item">
+        <img src="../images/homepage10_bg4.jpg" style="width:100%;  height:500px;">
+      </div>
+	  
+	  </div>
+
+</div>
+	<div class="container">
+		<div class="ro w search_form">
+			<div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="form-group">
+						 <label>Where are you going?</label>
+						 <input type="text"  class="form-control" value="Goa,INDIA" placeholder="Enter your destination">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="form-group">
+						 <label>Check-In</label>
+						 <input type="date"  class="form-control"  value="20-Oct-2019" placeholder="Check-In date">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="form-group">
+						 <label>Check-Out</label>
+						 <input type="date"  class="form-control" value="22-Oct-2019" placeholder="Check-Out date">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="form-group">
+						 <label>Room/Guest</label>
+						<select class="form-control">
+						<option>Single room</option>
+						<option>Double Room</option>
+						<option>Family Room</option>
+						<option>Multiple Room</option>
+						</select>
+						</div>
+					</div>
+					<div class="col-lg-2">
+					<label>&nbsp;</label>
+					  <a href="result.html"><button type="button" class="btn btn-primary active form-control">Search Hotel</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h1 class="text-center"><b>TOP HOTELS</b></h1>
+		<div class="row text-center top_hotels">
+             <div class="col-lg-4" >
+			   <img src="../images/tophotel1.jpg"  style="width:100%;">
+			     <div>
+				 <h2>Hotel Raddision</h2>
+			 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+			     <button type="button" class="btn btn-primary active form-control">Book</button>
+				 </div>
+             </div>		
+			<div class="col-lg-4">
+			   <img src="../images/tophotel2.jpg"  style="width:100%;">
+			      <div>
+				  <h2>Adange Hotel</h2>
+			 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+			     <button type="button" class="btn btn-primary active form-control">Book</button>
+				 </div>
+             </div>		
+			<div class="col-lg-4">
+			 <img src="../images/tophotel3.jpg"  style="width:100%;">
+			    <div>
+				<h2>The Pride Hotel</h2>
+			 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+			     <button type="button" class="btn btn-primary active form-control">Book</button>
+				 </div>
+             </div>					 
+		</div>
+	
+</div>
+<footer>
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="javascript:void(0)">ROSETTA</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown"><a href="javascript:void(0)">About Us</a></li>
+	  <li class="dropdown"><a href="javascript:void(0)">Contact Us</a></li>
+    </ul>
+	
+    </div>
+	<div class="social_link">
+	<ul class="nav navbar-nav">
+      <li class="dropdown"><a href="javascript:void(0)"><i class="fa fa-facebook-square"></i></a></li>
+	  <li class="dropdown"><a href="javascript:void(0)"><i class="fa fa-twitter-square"></i></a></li>
+	  <li class="dropdown"><a href="javascript:void(0)"><i class="fa fa-google-plus-square"></i></a></li>
+	  <li class="dropdown"><a href="javascript:void(0)"><i class="fa fa-linkedin-square"></i></a></li>
+    </ul>
+	</div>
+</nav>
+</footer>
+ <!-- Modal -->
+  <div class="modal fade" id="register_modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Register</h4>
+        </div>
+        <div class="modal-body">
+          
+			<div class="input_box_main">
+				  <div class="form-group text-left">
+					<label>Email Id</label>
+					<input type="text" class="form-control input_box" placeholder="Enter Email Id..." >
+					
+				  </div>
+				  <div class="form-group text-left">
+					<label>Mobile</label>
+					<input type="number" class="form-control input_box" placeholder="Enter Mobile...">
+					
+				  </div>
+				  <div class="form-group text-left">
+				  <label>Password</label>
+					<input type="password" class="form-control input_box" placeholder="Enter Password..." >
+					
+				  </div>
+				   <div class="form-group text-left">
+				  <label>Confirm Password</label>
+					<input type="password" class="form-control input_box" placeholder="Confirm Password...">
+					
+				  </div><br>
+				  <center><button type="button" class="btn btn-primary active form-co ntrol" style="width:200px;">Register</button></center>
+				   
+				 
+			</div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+   <div class="modal fade" id="login_modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Account Login</h4>
+        </div>
+        <div class="modal-body">
+          
+			<div class="input_box_main">
+				  <div class="form-group text-left">
+					<label>Email Id</label>
+					<input type="text" class="form-control input_box" placeholder="Enter Email Id..." >
+					
+				  </div>
+				  <div class="form-group text-left">
+				  <label>Password</label>
+					<input type="password" class="form-control input_box" placeholder="Enter Password..." >
+			
+				  </div>
+				  <div class="forgot_pass" ng-click="changeBoxtype('ForgotPassword')">Forgot Password?</div><br>
+				  <center><button type="button" class="btn btn-primary active form-con trol" style="width:200px;">Login</button></center>
+				  
+				  
+			</div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+
+</body>
+
+</html>
